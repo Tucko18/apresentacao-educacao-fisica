@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root{
+    --font1: 'Poppins', sans-serif;
+    --font2: Arial, Helvetica, sans-serif ;
+
+    --cor1: #FFFB85;
+    --cor2: #FFD464;
+    --cor3: #FA5B75;
+    --cor4: #5A3662;
+    --cor5: #432C51;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor4);
+    background: url(imagens/homem-pulando.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+a{
+    font-family: var(--font1);
+    font-size: 4em;
+    color: var(--cor2);
+    text-align: center;
+    padding-top: 1.5em;    
+}
+.imagens{
+    width: 30em;
+    padding-left: 32em;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family:  var(--font2);
+    padding-left: 20px;
+    padding-top: 20em;
+}
+#parte-normal{
+    background-color: var(--cor4);
+    height: 500px;
+    color: var();
+}
+div{
+    text-align: center;
+    margin-top: 14em;
+    padding: 20px;
+    background-color: #432C51;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+}
